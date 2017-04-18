@@ -1,9 +1,13 @@
-# api documentation for  [inherits (v2.0.3)](https://github.com/isaacs/inherits#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-inherits.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-inherits) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-inherits.svg)](https://travis-ci.org/npmdoc/node-npmdoc-inherits)
+# npmdoc-inherits
+
+api documentation for  [inherits (v2.0.3)](https://github.com/isaacs/inherits#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-inherits.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-inherits) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-inherits.svg)](https://travis-ci.org/npmdoc/node-npmdoc-inherits)
 #### Browser-friendly inheritance fully compatible with standard node.js inherits()
 
-[![NPM](https://nodei.co/npm/inherits.png?downloads=true)](https://www.npmjs.com/package/inherits)
+[![NPM](https://nodei.co/npm/inherits.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/inherits)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-inherits/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-inherits_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-inherits/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-inherits/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-inherits/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-inherits/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-inherits/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-inherits/build/screenCapture.npmPackageListing.svg)
 
@@ -50,13 +54,11 @@
     "main": "./inherits.js",
     "maintainers": [
         {
-            "name": "isaacs",
-            "email": "i@izs.me"
+            "name": "isaacs"
         }
     ],
     "name": "inherits",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/isaacs/inherits.git"
@@ -67,16 +69,6 @@
     "version": "2.0.3"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module inherits](#apidoc.module.inherits)
-
-
-
-# <a name="apidoc.module.inherits"></a>[module inherits](#apidoc.module.inherits)
 
 
 
