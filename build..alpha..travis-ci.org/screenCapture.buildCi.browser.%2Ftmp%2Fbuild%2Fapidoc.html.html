@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/isaacs/inherits#readme"
-
-    >inherits (v2.0.3)</a>
+    <a href="https://github.com/isaacs/inherits#readme">inherits (v2.0.3)</a>
 </h1>
 <h4>Browser-friendly inheritance fully compatible with standard node.js inherits()</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.inherits">module inherits</a><ol>
 
@@ -132,16 +125,16 @@
     <li>description and source-code<pre class="apidocCodePre">inherits = function (ctor, superCtor) {
 
   if (ctor === undefined || ctor === null)
-    throw new TypeError(&#x27;The constructor to &#x22;inherits&#x22; must not be &#x27; +
-                        &#x27;null or undefined&#x27;);
+    throw new TypeError('The constructor to "inherits" must not be ' +
+                        'null or undefined');
 
   if (superCtor === undefined || superCtor === null)
-    throw new TypeError(&#x27;The super constructor to &#x22;inherits&#x22; must not &#x27; +
-                        &#x27;be null or undefined&#x27;);
+    throw new TypeError('The super constructor to "inherits" must not ' +
+                        'be null or undefined');
 
   if (superCtor.prototype === undefined)
-    throw new TypeError(&#x27;The super constructor to &#x22;inherits&#x22; must &#x27; +
-                        &#x27;have a prototype&#x27;);
+    throw new TypeError('The super constructor to "inherits" must ' +
+                        'have a prototype');
 
   ctor.super_ = superCtor;
   Object.setPrototypeOf(ctor.prototype, superCtor.prototype);
@@ -242,3 +235,4 @@
     ]
 </div>
 </div>
+</body></html>

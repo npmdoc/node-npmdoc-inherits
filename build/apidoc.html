@@ -61,12 +61,178 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.inherits">module inherits</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inherits.inherits">
+            function <span class="apidocSignatureSpan"></span>inherits
+            <span class="apidocSignatureSpan">(ctor, superCtor)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inherits.inherits_browser">
+            function <span class="apidocSignatureSpan">inherits.</span>inherits_browser
+            <span class="apidocSignatureSpan">(ctor, superCtor)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inherits.toString">
+            function <span class="apidocSignatureSpan">inherits.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.inherits.inherits_browser">module inherits.inherits_browser</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inherits.inherits_browser.inherits_browser">
+            function <span class="apidocSignatureSpan">inherits.</span>inherits_browser
+            <span class="apidocSignatureSpan">(ctor, superCtor)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.inherits.toString">module inherits.toString</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inherits.toString.toString">
+            function <span class="apidocSignatureSpan">inherits.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.inherits" id="apidoc.module.inherits">module inherits</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inherits.inherits" id="apidoc.element.inherits.inherits">
+        function <span class="apidocSignatureSpan"></span>inherits
+        <span class="apidocSignatureSpan">(ctor, superCtor)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">inherits = function (ctor, superCtor) {
+
+  if (ctor === undefined || ctor === null)
+    throw new TypeError(&#x27;The constructor to &#x22;inherits&#x22; must not be &#x27; +
+                        &#x27;null or undefined&#x27;);
+
+  if (superCtor === undefined || superCtor === null)
+    throw new TypeError(&#x27;The super constructor to &#x22;inherits&#x22; must not &#x27; +
+                        &#x27;be null or undefined&#x27;);
+
+  if (superCtor.prototype === undefined)
+    throw new TypeError(&#x27;The super constructor to &#x22;inherits&#x22; must &#x27; +
+                        &#x27;have a prototype&#x27;);
+
+  ctor.super_ = superCtor;
+  Object.setPrototypeOf(ctor.prototype, superCtor.prototype);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.inherits.inherits_browser" id="apidoc.element.inherits.inherits_browser">
+        function <span class="apidocSignatureSpan">inherits.</span>inherits_browser
+        <span class="apidocSignatureSpan">(ctor, superCtor)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function inherits(ctor, superCtor) {
+  ctor.super_ = superCtor
+  ctor.prototype = Object.create(superCtor.prototype, {
+    constructor: {
+      value: ctor,
+      enumerable: false,
+      writable: true,
+      configurable: true
+    }
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.inherits.toString" id="apidoc.element.inherits.toString">
+        function <span class="apidocSignatureSpan">inherits.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inherits.inherits_browser" id="apidoc.module.inherits.inherits_browser">module inherits.inherits_browser</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inherits.inherits_browser.inherits_browser" id="apidoc.element.inherits.inherits_browser.inherits_browser">
+        function <span class="apidocSignatureSpan">inherits.</span>inherits_browser
+        <span class="apidocSignatureSpan">(ctor, superCtor)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function inherits(ctor, superCtor) {
+  ctor.super_ = superCtor
+  ctor.prototype = Object.create(superCtor.prototype, {
+    constructor: {
+      value: ctor,
+      enumerable: false,
+      writable: true,
+      configurable: true
+    }
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inherits.toString" id="apidoc.module.inherits.toString">module inherits.toString</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inherits.toString.toString" id="apidoc.element.inherits.toString.toString">
+        function <span class="apidocSignatureSpan">inherits.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
