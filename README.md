@@ -1,6 +1,7 @@
 # npmdoc-inherits
 
-api documentation for  [inherits (v2.0.3)](https://github.com/isaacs/inherits#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-inherits.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-inherits) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-inherits.svg)](https://travis-ci.org/npmdoc/node-npmdoc-inherits)
+#### basic api documentation for  [inherits (v2.0.3)](https://github.com/isaacs/inherits#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-inherits.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-inherits) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-inherits.svg)](https://travis-ci.org/npmdoc/node-npmdoc-inherits)
+
 #### Browser-friendly inheritance fully compatible with standard node.js inherits()
 
 [![NPM](https://nodei.co/npm/inherits.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/inherits)
@@ -66,7 +67,8 @@ api documentation for  [inherits (v2.0.3)](https://github.com/isaacs/inherits#re
     "scripts": {
         "test": "node test"
     },
-    "version": "2.0.3"
+    "version": "2.0.3",
+    "bin": {}
 }
 ```
 
